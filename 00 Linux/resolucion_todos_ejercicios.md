@@ -22,9 +22,7 @@ Y `file2.txt` debe permanecer vacío.
 
 EJERCICIO 1. RESOLUCIÓN:
 
-mkdir foo
-mkdir foo/dummy
-mkdir foo/empty
+mkdir -p foo/{dummy,empty}
 touch foo/dummy/file{1,2}.txt
 echo 'Me encanta la bash!!' > foo/dummy/file1.txt
 

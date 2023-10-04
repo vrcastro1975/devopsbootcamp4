@@ -8,9 +8,7 @@ else
 fi
 
 # Se continúa normalmente el proceso del ejercicio 1
-mkdir foo
-mkdir foo/dummy
-mkdir foo/empty
+mkdir -p foo/{dummy,empty}
 touch foo/dummy/file{1,2}.txt
 echo $message > foo/dummy/file1.txt
 
