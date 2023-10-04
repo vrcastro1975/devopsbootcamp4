@@ -106,6 +106,9 @@ $ ejercicio4.sh patata
 > La palabra "patata" aparece 3 veces
 > Aparece por primera vez en la línea 27
 ```
+=================================================
+El script del ejercicio 4 se ha realizado aparte.
+=================================================
 
 ### 5. OPCIONAL - Modifica el ejercicio anterior de forma que la URL de la página web se pase por parámetro y también verifique que la llamada al script sea correcta
 
@@ -123,3 +126,6 @@ $ ejercicio5.sh https://lemoncode.net/ patata
 > La palabra "patata" aparece 1 vez
 > Aparece únicamente en la línea 27
 ```
+=================================================
+El script del ejercicio 5 se ha realizado aparte.
+=================================================
