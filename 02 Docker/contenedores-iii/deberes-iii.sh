@@ -13,7 +13,7 @@ npm start
 #O bien seleccionando el archivo Dockerfile con el botón derecho y hacer clic en Build Image...
 
 
-# He tenido que isntalar antes la extensión "Docker" de Microsoft en Visual Studio Code.
+# He tenido que instalar antes la extensión "Docker" de Microsoft en Visual Studio Code.
 # Una vez hecho esto, he seguido las instrucciones y he podido crear la imagen sin problema
 # Haciendo un "docker image ls" obtengo:
 # REPOSITORY        TAG       IMAGE ID       CREATED              SIZE
