@@ -1,17 +1,15 @@
 version: '3.9'
 services:
 
-# mongodb (OK)
+# mongodb
   some-mongo:
     image: mongo:4
     volumes:
       - mongodata:/data/db
-    ports:
-      - "27017:27017"
     networks:
       - lemoncode-challenge
 
-# backend (OK)
+# backend
   topics-api:
     build: ./backend
     depends_on:
@@ -23,15 +21,15 @@ services:
     networks:
       - lemoncode-challenge
 
-#frontend (AQUÍ ME SIGUE DANDO FALLO: COMPROBAR EL DOCKERFILE)
+#frontend
   frontend:
     build: ./frontend
     depends_on:
-      - topics-api
+      - topics-api  
     ports:
       - "8080:8080"
     environment:
-      - API_URL=http://topics-api:5000/api/topics
+      - API_URL=http://backend:5000/api/topics
     networks:
       - lemoncode-challenge
 
