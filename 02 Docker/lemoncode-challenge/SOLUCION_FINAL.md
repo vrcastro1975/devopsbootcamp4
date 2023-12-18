@@ -100,15 +100,7 @@ curl -v http://localhost:5000/api/topics
   # WORKDIR /opt/build
   # COPY . .
   # RUN npm ci
-  # RUN npm run build
-  #
-  # FROM node:18
-  # WORKDIR /opt/app
-  # COPY --from=builder /opt/build/dist .
-  # COPY ./*.json .
-  # RUN npm ci --only-production
-  # EXPOSE 8080
-  # CMD ["node", "app.js"]
+  # CMD ["node", "server.js"]
 cd frontend
 docker build -t frontend-image .
 cd ..

@@ -3,3 +3,6 @@
 
 # carpeta "obsoleto"
 /obsoleto
+
+# ficheros ".old"
+*.old
