@@ -1,8 +1,0 @@
-# environments
-.env
-
-# carpeta "obsoleto"
-/obsoleto
-
-# ficheros ".old"
-*.old
